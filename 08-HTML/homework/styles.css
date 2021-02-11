@@ -1,0 +1,29 @@
+body {
+    font-family: Roboto;
+    display: flexbox;
+    flex-direction: row;
+    background-image: url("https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/06/22153745/Pizza103.jpg");
+    
+}
+h1 {
+    color: blue;
+}
+div {
+    margin-left: auto ;
+    margin-right: auto;
+    text-align: center;
+}
+img {
+    width: 400px;
+}
+#thirdDiv {
+    height: 600px;
+    width: 400px;
+    background-color: burlywood;
+    padding: 50px;
+    border: 20px; color: cadetblue; border-style: groove;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
