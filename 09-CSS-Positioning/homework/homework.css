@@ -44,10 +44,17 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 #ejercicioCinco {
-    display: flexbox;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-
-
 /* Ejercicio 6. */
+#ejercicioCinco {
+    flex-direction: row-reverse;
+}
+
+#ejercicioSiete {
+    display: flex;
+    flex-direction: column;
+}
